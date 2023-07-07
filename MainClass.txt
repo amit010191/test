@@ -1,0 +1,10 @@
+Class Songs_Test
+{
+  public static void main(String[] args){
+    SongsList sn=new SongsList(6);
+    sn.set("User1", "Pal");
+    sn.set("User2", "Unstoppable");
+    sn.removeFirstElement();
+  }
+
+}
